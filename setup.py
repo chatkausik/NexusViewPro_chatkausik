@@ -4,10 +4,10 @@ with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 __version__ = "0.0.1"
-REPO_NAME = "nexusviewpro-chatkausik"
+REPO_NAME = "nexusviewpro_chatkausik"
 AUTHOR_USER_NAME = "chatkausik"
 AUTHOR_EMAIL = "chat.kausik@gmail.com"
-SRC_REPO = "nexusviewpro-chatkausik"
+SRC_REPO = "nexusviewpro_chatkausik"
 
 setuptools.setup(
     name=SRC_REPO,

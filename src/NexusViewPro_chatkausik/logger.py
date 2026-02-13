@@ -16,4 +16,4 @@ logging.basicConfig(
     ]
 )
 
-logger = logging.getLogger("NexusViewPro-chatkausik")
+logger = logging.getLogger("NexusViewPro_chatkausik")
