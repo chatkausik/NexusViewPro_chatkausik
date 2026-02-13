@@ -1,7 +1,7 @@
 from IPython import display
 import urllib.request
-from NexusViewPro_chatkausik.custom_exception import InvalidURLException
-from NexusViewPro_chatkausik.logger import logger
+from NexusViewPro.custom_exception import InvalidURLException
+from NexusViewPro.logger import logger
 
 
 
