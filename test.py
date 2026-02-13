@@ -1,5 +1,5 @@
-from NexusViewPro-chatkausik.logger import logger
-from NexusViewPro-chatkausik.custom_exception import InvalidURLException
+from NexusViewPro_chatkausik.logger import logger
+from NexusViewPro_chatkausik.custom_exception import InvalidURLException
 
 try:
     raise InvalidURLException()
