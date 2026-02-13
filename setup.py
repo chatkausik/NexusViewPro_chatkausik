@@ -1,13 +1,9 @@
 import setuptools
 
-
 with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
-
-
 __version__ = "0.0.1"
-
 REPO_NAME = "NexusViewPro"
 AUTHOR_USER_NAME = "chatkausik"
 AUTHOR_EMAIL = "chat.kausik@gmail.com"
@@ -20,7 +16,7 @@ setuptools.setup(
     author_email=AUTHOR_EMAIL,
     description="A small python package",
     long_description=long_description,
-    long_description_content="text/markdown",
+    long_description_content_type="text/markdown",  # Fixed: added _type
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
     project_urls={
         "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
